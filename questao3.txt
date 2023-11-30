@@ -1,0 +1,23 @@
+Identifique os erros de compila¸c˜ao que seriam detectados no seguinte programa se eles existirem:
+
+
+
+# include < stdio .h >
+int main ( ) {
+int N_ant , N_prox , N , N_atual
+N_ant = N_atual =1;
+for( i =1 ,i <= N , i ++) {
+N_prox = N_ant + N_atual ;
+N_ant = N_atual ;
+N_atual = N_prox ;
+printf ("Fim do laco !\n") ;
+return
+}
+
+
+1 - As chaves não estão fechadas corretamente;
+2 - Na linha 7 não termina com ";";
+3 - Não está retornando nada no int main;
+4 - Seria uma boa prática de programação void como parâmetro no int main;
+5 - N não foi definido; 
+6 - o for não é separado por vírgula

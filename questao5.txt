@@ -1,0 +1,20 @@
+#include <stdio.h>
+int main ( ) {
+int i ;
+for ( i =1 ; i <= 100 ; i *=100) {
+if ( i ==30 ) {
+break ;
+}
+else {
+printf ("%2d\n" ,2* i ) ;
+}
+}
+printf ("Fim do laco !\n") ;
+return 0;
+}
+
+Esse "for" vai de 1 até 100, no passo de i = i*100
+
+Assim, na primeira repetição i = 1 , já na segunda i = 100.
+
+Dentro do for, para cada repetição, ele vai verificar se i é igual a 30, caso seja, ele irá quebrar esse for. No entanto, se não for igual a 30, ele irá imprimir o i multiplicdo por 2 (não sei o que o 2 antes do d significa, achava que ele só imprimiria com 2 caracteres). A função vai imprimir da primeira vez o 1 * 2, da segunda vez vai multiplicar o 100 * 2, já que o passo é i*=100. Com isso, o for terá fim já que ele só iria até ir se igualhar a 100. 
